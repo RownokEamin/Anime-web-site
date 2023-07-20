@@ -1,36 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    .anime{
-        border: 2px solid black;
-        text-align: center;      
-        background-color: blueviolet;
-        border-radius: 5px;
-    }
-    .container{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap:20px ;
-    }
-    .img{
-        width: 80%;
-       height: 50%;
-       margin-top: 10px; 
-    }
- @media screen and (max-width:576px) {
-      .container{
-        grid-template-rows: repeat(2,1fr);
-        grid-template-columns: repeat (2,1fr);
-      }
-      .anime{
-        background-color: brown;
-      }    
- }
-</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- .container>.anime*15>img[src=""]+h3{anime-list -$}+{rating}+p>lorem30^btn{click now} -->
